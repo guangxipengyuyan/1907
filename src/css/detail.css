@@ -1,0 +1,233 @@
+/* =============放大镜=========== */
+.glass_box1{
+    border: 1px solid #efefef;
+    width: 350px;
+    height: 350px;
+    padding: 0;
+}
+.glass_box1 img{
+    width: 350px;
+    height: 350px;
+}
+.glass_cover{
+    width: 118.3px;
+    height: 118.3px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.glass_box2 {
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top: 254px;
+    left: 815px;
+    overflow: hidden;
+    /* display: none; */
+    border: 1px solid #ccc;
+    z-index: 30;
+    /* position: relative; */
+}
+.glass_box2 img{
+    width: 1050px;
+    height: 1050px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.clearfix li{
+    float: left;
+}
+
+
+
+.jiathis_style{
+    font-size: 12px;
+    margin: 30px 0 0 30px;
+}
+.jiathis_txt{
+    color: #949494;
+}
+
+
+.deal_main_right{
+    margin-left: 30px;
+    width: 634px;
+}
+.title_value p:nth-child(1){
+    color: #666;
+    font-size: 14px;
+}
+
+.introduce{
+    margin: 24px 0;
+    font-size: 16px;
+    line-height: 166%;
+    color: #333;
+}
+.introduce strong{
+    color: #ec2b8c;
+}
+.price_box .price em{
+    font-size: 20px;
+    vertical-align: 8px;
+    margin-right: 6px;
+}
+.price_box .price span{
+    font-size: 36px;
+}
+.price_box .price_right a{
+    color: #858585;
+    font-size: 12px;
+}
+
+.serve_box{
+    color: #8e8e8e;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.shoping_special{
+    margin-top: 20px;
+    font-size: 13px;
+}
+.shoping_special span{
+    margin-right: 10px;
+}
+.shoping_special a{
+    background: #fff;
+    color: #666;
+    border: 1px solid #dcdcdc;
+    display: inline-block;
+    padding: 1px 10px;
+    margin-right: 5px;
+    margin-bottom: 8px;
+}
+
+.mall_btn{
+    float: left;
+    width: 183px;
+    margin-top: 20px;
+}
+.mall_btn a{
+    background: #ed145b;
+    width: 183px;
+    height: 41px;
+    line-height: 41px;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+}
+
+
+.deal_prefer{
+    width: 1090px;
+    margin: 20px auto 20px;
+    background: #fff;
+    padding: 20px 0;
+}
+.deal_prefer .list{
+    float: left;
+    height: 80px;
+    width: 200px;
+    overflow: hidden;
+    position: relative;
+    margin-left: 60px;
+    cursor: pointer;
+    border-right: 1px solid #eee;
+}
+.deal_prefer .list:nth-child(1){
+    background-position: 0 -220px;
+}
+.deal_prefer .list:nth-child(2){
+    background-position: -240px -220px;
+}
+.deal_prefer .list:nth-child(3){
+    background-position: -460px -220px;
+}
+.deal_prefer .list:nth-child(4){
+    background-position: -680px -220px;
+    border: none;
+}
+
+
+
+.deal_detail{
+    margin: 20px 0;
+    background: #fff;
+    box-shadow: 1px 1px 4px #d3d3d3;
+    position: relative;
+}
+.deal_tab_nav{
+    background: #f6f6f6;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    height: 52px;
+}
+.deal_tab_nav_move{
+    position: fixed;
+    top: 0;
+    width: 1090px;
+}
+.deal_tab_nav ul li{
+    float: left;
+}
+.deal_tab_nav ul li a{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 14px;
+    color: #333;
+    border-right: 1px solid #e5e5e5;
+    margin-top: 2px;
+    cursor: pointer;
+}
+
+.content_box{
+    padding-top: 50px;
+}
+.consumer_box,.guts_box,.lxjm_box{
+    width: 922px;
+    height: 50px;
+    margin: 0 auto;
+}
+.detail_content {
+    background: url(../images/detail/detail_content.jpg) no-repeat;
+}
+.consumer_box {
+    background-position: left -641px;
+}
+.content_text,.content_text img{
+    width: 790px;
+}
+.content_text,.content_img{
+    margin: 20px auto 0;
+}
+.content_img,.content_img img{
+    width: 790px;
+    margin: 0 auto;
+}
+.lxjm_box{
+    background-position: left -476px;
+}
+
+
+.footer_container {
+    width: 100%;
+    background: #f7f7f7;
+}
+.footer_bottom {
+    background: #57214c;
+    height: 225px;
+}
+.head_wrapper{
+    width: 1090px;
+    min-width: 1090px;
+    margin: 0 auto;
+}
+.global_1090 .footer_links {
+    width: 220px;
+    padding: 4px 0 0 20px;
+}

@@ -1,0 +1,274 @@
+#tbody{
+    width: 100%;
+	height: 6480px;
+}
+.tbody-carousel{
+	width: 100%;
+    height: 446px;
+	background: #d8d8d8;
+	margin:auto;
+	position: relative;
+	overflow: hidden;
+}
+
+.imglist{
+	width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.imglist li{
+    position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	line-height: 300px;
+	font-size: 40px;
+	color: red;
+}
+.imglist li:nth-child(1){
+	background: url(../img/web-101-101-1.jpg);
+}
+.imglist li:nth-child(2){
+	background: url(../img/web-101-101-2.jpg);
+}
+.imglist li:nth-child(3){
+	background: url(../img/web-101-101-3.jpg);
+}
+/*焦点样式*/
+.light{
+	width: 100%;
+	height: 20px;
+	position: absolute;
+	left:0;
+	bottom: 10px;
+	text-align: center;
+}
+.light span{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background: #d8d8d8;
+	font-size: 14px;
+	text-align: center;
+	line-height: 20px;
+	cursor: pointer;
+}
+.light span.active{
+	background:#fff;
+}
+
+.light span.liang{
+	background:lightcoral;
+}
+.posibtn{
+    margin-left:164px; 
+	width: 80%;
+	height: 50px;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	margin-top: -25px;
+}
+.posibtn p{
+	width: 50px;
+	height: 50px;
+	background: rgba(209, 197, 197,0.7);
+	cursor: pointer;
+	position: absolute;
+	top: 0;
+	font-size: 50px;
+	color: #fff;
+	text-align: center;
+	line-height: 50px;
+}
+.posibtn p::selection{
+	background: transparent;
+}
+.posibtn p:nth-child(1){
+	left: 10px;
+}
+.posibtn p:nth-child(2){
+	right: 10px;
+}
+.tbody-box{
+    width: 70%;
+    height: 100%;
+    margin:30px auto;
+}
+.tbody-box1{
+    width: 100%;
+    height: 360px;
+}
+.tbody-box1 ul li{
+    width: 292px;
+    height: 100%;
+    float: left;
+    margin-left:10px; 
+}
+.tbody-box2{
+    width: 100%;
+	height: 430px;
+	margin: 20px 0;
+}
+.tbody-box2-top{
+    width: 100%;
+    height: 30px;
+}
+.tbody-box2-top h3{
+    display: inline-block;
+    line-height: 30px;
+    font-size: 26px;
+    color: #333;
+    font-weight: 600;
+}
+.tbody-box2-top span{
+    margin-left: 15px;
+    font-size: 14px;
+    color: #666;
+}
+.tbody-box2-buttom{
+    width: 100%;
+    height: 380px;
+	overflow: hidden;
+	margin-top:10px; 
+}
+.ulList{
+	width: 100%;
+	height: 100%;
+}
+.ulList li{
+	width: 232px;
+	height: 100%;
+	float: left;
+	position: relative;
+}
+.ulList-img{
+	width: 220px;
+	height: 220px;
+}
+.ulList-img img{
+	width: 220px;
+	height: 220px;
+	margin: 25px 0  0 5px;
+}
+.ulList-span{
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	position: absolute;
+	top: 337px;
+}
+.ulList-span p:nth-child(1){
+	display: block;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+    text-align: center;
+    margin-bottom: 2px;
+}
+.ulList-span p:nth-child(2){
+	font-size: 14px;
+    color: #ef3c79;
+    text-align: center;
+}
+.ulList-buttom{
+	width: 100%;
+	height: 50px;
+	background: #ef3c79;
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+	display: none;
+	
+}
+.ulList-buttom a{
+	line-height:40px;
+	color: #fff;
+}
+.ulList li:hover{
+	border: 1px solid #ccc;
+}
+.ulList li:hover .ulList-span{
+	position: absolute;
+	top: 250px;
+}
+.ulList li:hover .ulList-buttom{
+	display: block;
+}
+.tbody-box3{
+	width: 100%;
+	height: 714px;
+	margin: 20px 0;
+}
+.tbody-box3-box{
+	width: 100%;
+	height: 30px;
+}
+.tbody-box3-box h3{
+	display: inline-block;
+    line-height: 30px;
+    font-size: 26px;
+    color: #333;
+	font-weight: 600;
+	padding-top: 10px;
+}
+.tbody-box3-rigth{
+	float: right;
+    padding-top: 15px;
+}
+.tbody-box3-rigth a{
+	display: inline-block;
+    text-decoration: none;
+    font-size: 14px;
+    margin-left: 10px;
+    padding-right: 10px;
+    color: #333;
+    border-right: 1px solid #ccc;
+}
+.tbody-box3-img{
+	margin: 20px 0;
+	width: 100%;
+	height: 306px;
+}
+.tbody-box3-img img{
+	width: 100%;
+	height: 100%;
+}
+.tbody-box3-bottom{
+	width: 100%;
+	height: 338px;
+}
+.tbody-box3-bottom ul li{
+	width: 220px;
+	height: 100%;
+	float: left;
+	padding:11px ;
+}
+.tbody-box4{
+	width: 100%;
+	height: 420px;
+	margin-top:130px; 
+}
+.tbody-box4-box {
+    width: 100%;
+    height: 30px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.tbody-box4-box h3 {
+    display: inline-block;
+    line-height: 30px;
+    font-size: 26px;
+    color: #333;
+    font-weight: 600;
+    padding-top: 15px;
+}
+.tbody-box4-box span {
+    margin-left: 15px;
+    font-size: 14px;
+    color: #666;
+}

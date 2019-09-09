@@ -1,0 +1,209 @@
+.tfoot{
+    width: 100%;
+    height: 559px;
+}
+.tfoot-box{
+    width: 70%;
+    height: 100%;
+    margin: auto;
+}
+.tfoot-box-top{
+    width: 100%;
+    height: 145px;
+    background: url(../img/zhaoshang09_03.jpg);
+    background-size:contain;
+    border-bottom: 1px solid #ccc;
+}
+.tfoot-box-body{
+    width: 100%;
+    height: 221px;
+    position: relative;
+    border-bottom: 1px solid #ccc;
+    
+}
+.tfoot-box-body-left{
+    width: 275px;
+    height: 159px;
+    position: absolute;
+    top: 30px;
+}
+.tfoot-box-body-left-one{
+    width: 100%;
+    height: 60px;
+    background: url(../img/logo.png);
+    background-repeat:no-repeat; 
+}
+.tfoot-box-body-left-two{
+    width: 100%;
+    height: 32px;
+}
+.tfoot-box-body-left-two-left{
+    width: 56px;
+    height: 100%;
+    line-height: 36px;
+    font-size: 14px;
+    margin-left: 10px;
+}
+.tfoot-box-body-left-two-inne{
+    width: 32px;
+    height: 32px;
+    background: url(../img/weibo02.png);
+    margin:-32px 0 0 90px; 
+    position: relative;
+}
+.tfoot-box-body-left-two-inne:hover.tfoot-box-body-left-two-inne em{
+    display: block;
+}
+.tfoot-box-body-left-two-inne:hover .tfoot-box-body-left-two-inne-img{
+    display: block;
+}
+.tfoot-box-body-left-two-rigth{
+    width: 32px;
+    height: 32px;
+    background: url(../img/weixin01.png);
+    margin:-32px 0 0 140px; 
+}
+.tfoot-box-body-left-two-rigth:hover.tfoot-box-body-left-two-rigth em{
+    display: block;
+}
+.tfoot-box-body-left-two-rigth:hover .tfoot-box-body-left-two-rigth-img{
+    display: block;
+}
+.tfoot-box-body-left-two-inne em{
+    display: block;
+    width: 0;
+    height: 0;
+    border-width: 0 10px 10px;
+    border-style: solid;
+    border-color: transparent transparent #fff;
+    position: absolute;
+    top: 30px;
+    left: 7px;
+    display: none;
+}
+.tfoot-box-body-left-two-rigth em{
+    display: block;
+    width: 0;
+    height: 0;
+    border-width: 0 10px 10px;
+    border-style: solid;
+    border-color: transparent transparent #fff;
+    position: absolute;
+    top: 91px;
+    left: 145px;
+    display: none;
+}
+.tfoot-box-body-left-two-inne-img{
+    width: 100px;
+    height: 100px;
+    background:url(../img/weibo_qr.jpg);
+    background-size:contain; 
+    position: absolute;
+    top: 40px;
+    left: -29px;
+    display: none;
+    border: 1px solid #ccc;
+}
+.tfoot-box-body-left-two-rigth-img{
+    width: 100px;
+    height: 100px;
+    background:url(../img/wexin_qr02.jpg);
+    background-size:contain; 
+    position: absolute;
+    top: 100px;
+    left: 108px;
+    display: none;
+    border: 1px solid #ccc;
+}
+.tfoot-box-body-body{
+    width: 650px;
+    height: 100%;
+    margin-left: 258px;
+    position: relative
+}
+.tfoot-box-body-body ul{
+    position: absolute;
+    top: 20px;
+    left: 25px;
+}
+.tfoot-box-body-body ul li{
+    width: 150px;
+    height: 129px;
+    float: left;
+    text-align: center;
+}
+.s1{
+    width: 135px;
+    height: 124px;
+}
+.s1 dt{
+    font: 600 16px/20px "microsoft yahei";
+    color: #333;
+    padding: 5px;
+    margin: 5px 0 12px 0;
+}
+.s1 dd{
+    font: 12px/20px "microsoft yahei";
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: block;
+    clear: both;
+    padding: 2px 5px;
+    overflow: hidden;
+    margin-top: 5px;
+}
+.s1 dd a:hover{
+    color: #ef3c79;
+}
+.tfoot-box-body-rigth{
+    width: 275px;
+    height: 100%;
+    float: right;
+    margin-top: -221px;
+}
+.tfoot-box-body-rigth-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.tfoot-box-body-rigth-box1{
+    width: 108px;
+    height: 152px;
+    margin-top: 26px;
+}
+.tfoot-box-body-rigth-box2{
+    width: 108px;
+    height: 152px;
+    margin-top: 26px;
+}
+.tfoot-box-body-rigth-box1 p:nth-child(1){
+    width: 96px;
+    height: 96px;
+    border: 1px solid #ccc;
+    margin-left:4px; 
+}
+.tfoot-box-body-rigth-box1 p:nth-child(2){
+    font-size: 13px;
+}
+.tfoot-box-body-rigth-box1 p{
+    margin-bottom: 9px;
+}
+.tfoot-box-body-rigth-box2 p:nth-child(1){
+    width: 96px;
+    height: 96px;
+    border: 1px solid #ccc;
+    margin-left:4px; 
+}
+.tfoot-box-body-rigth-box2 p:nth-child(2){
+    font-size: 13px;
+}
+.tfoot-box-body-rigth-box2 p{
+    margin-bottom: 9px;
+}
+.tfoot-tfootBox{
+    width: 100%;
+    height: 192px;
+    text-align: center;
+    font-size: 12px !important;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/right.css">
+    <script src="../js/jquery-1.11.3.min.js"></script>
+    <title>公共则栏</title>
+</head>
+<body>
+    <div class="right">
+        <div class="rigth-box">
+            <div class="rigth-box1">
+                <a href="#">
+                    <img src="../img/05755058785008341.jpg" alt="">
+                </a>
+            </div>
+            <div class="rigth-box2">
+                <div class="rigth-box2-top"></div>
+                <div class="rigth-box2-bottom">购物车</div>
+            </div>
+            <div class="rigth-box3"></div>
+            <div class="rigth-box4"></div>
+            
+        </div>
+        <div class="rigth-box5"></div>
+    </div>
+    <script type="text/javascript">
+     $(document).ready(function (){
+        $('.rigth-box5').click(function(){
+            $('html ,body').animate({ scrollTop: 0 });
+        });
+    });
+    </script>
+</body>
+</html>

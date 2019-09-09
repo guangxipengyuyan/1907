@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/cart.css">
+    <script src="../js/jquery-3.0.0.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/cart.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div style="background: white;">
+        <div class="cart_top container">
+            <div class="user_box fr" id="JS_user_box"><div>百洋欢迎您，<a href="../html/login.html" class="denglu">登录</a>
+            <i class="tips">|</i>
+            <a href="../html/register.html" class="zhuce">免费注册</a></div></div>
+        </div>
+    
+        <div class="cart_header_box">
+            <div class="cart_header container clear">
+                <div class="logo_box fl">
+                    <div class="logo">
+                        <a href="../index.html" target="_blank" id="home">
+                        <img src="../img/logo.png" alt="百洋购物">
+                        </a>
+                    </div>
+                </div>
+                <div class="order_path order_path_1 fr"></div>
+            </div>
+        </div>
+
+        <div class="cart_main_hide clear">
+            <div class="group_show container">
+                <div class="cart_empty clear"> 
+                    <img class="cart_empty_logo" src="../images/cart/empty_icon.jpg" alt=""> 
+                    <div class="cart_empty_right"> 
+                        <h2>您的购物车中没有商品，请先去挑选心爱的商品吧！</h2> 
+                        <p class="cart_empty_backtip"> 您可以 <a class="btn" href="../html/shouye.html">  返回首页  </a> 挑选喜欢的商品,或者 </p> 
+                        <div class="search_block"> 
+                            <form action="" method="get" pos="top"> 
+                                <input name="filter" type="hidden" value="0-0-0-0-11-1"> 
+                                <button type="submit" class="btn_cart_search">搜索</button> 
+                                <input name="search" type="text" class="search_input" placeholder="搜搜您想要的商品" autocomplete="off"> 
+                                <input name="from" type="hidden">
+                            </form> 
+                        </div> 
+                    </div> 
+                </div>  
+            </div>
+        </div>
+
+        
+
+        <div class="cart_main">
+            <div id="group_show" class="container">
+                <div class="content_header clearfix">
+                    <div class="top_banner"> 
+                        <ul class="header_icons"> 
+                            <li> 
+                                <span> <i class="icon_zhenpin header_icon png"></i> 真品防伪码 </span> 
+                            </li> 
+                            <li> 
+                                <span> <i class="icon_tuihuo header_icon png"></i> 30天无条件退货 </span> 
+                            </li> 
+                            <li> 
+                                <span> <i class="icon_baoyou header_icon png"></i> 美妆满2件或299元包邮 </span> 
+                            </li> 
+                        </ul> 
+                    </div>  
+                    <div class="common_shippment"> <i class="icon_small icon_baoyou png">包邮</i> 第三方入驻商家单订单满159包邮 </div>
+                </div>
+
+
+
+                <div class="groups_wrapper">
+                    <div class="groups_wrapper_top clear">
+                        <div class="cart_group_header fl"> 
+                            <input type="checkbox" class="js_group_selector"> 
+                            <h2>  名品特卖  </h2> 
+                        </div>
+                        <div class="th cart_price">聚美价（元）</div>
+                        <div class="th cart_num">数量</div>
+                        <div class="th cart_total">小计（元）</div>
+                        <div class="th cart_option">操作</div>
+                    </div>
+                    <div class="goods_list clear" id="good">
+                    </div>
+
+                    <div class="common_handler">
+                        <div class="right_handler"> 共 <span class="total_amount"> 0 </span> &nbsp;件商品 &nbsp;&nbsp; 商品应付总额：<span class="total_price">¥0</span> 
+                            <a id="go_to_order" class="btn" href="javascript:;">去结算</a> 
+                        </div> 
+                        <label for="js_all_selector" class="cart_all_selector_wrapper"> 
+                            <input type="checkbox" id="js_all_selector" class="js_all_selector all_selector"> 全选 
+                        </label> 
+                        <a class="go_back_shopping" href="./list.html">继续购物</a> 
+                        <span class="seperate_line">|</span> 
+                        <a class="clear_cart_all" href="javascript:;">清空选中商品</a>
+                         <form id="form_to_order" action="" method="post" style="display: none;"> 
+                             <input type="hidden" name="items_key"> 
+                        </form>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+        <div class="recommend_box container">
+            <div class="nav_tips">  <a href="javascript:;" class="JS_recommend_nav active">今日备受欢迎  </a>  </div>
+            <div class="goods">
+
+            </div>
+        </div>
+
+        <div id="tfoot"></div>
+    </div>
+</body>
+<script>
+    $(() => {
+        $('#tfoot').load('tfoot.html', function () {
+
+        });
+    });
+</script>
+</html>

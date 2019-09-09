@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/list.css">
+    <script src="../js/jquery-3.0.0.js"></script>
+    <script src="../js/list.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="listBox">
+        <div id="thead"></div>
+        <div id="right"></div>
+        <div class="main container clear">
+            <div class="main_top">
+                <ul class="search_box">
+                    <li><a href="javascript:;">首页</a></li>
+                    <span>&gt;</span>
+                    <li><input type="search" class="search" placeholder="保健"></li>
+                </ul>
+
+                <div class="search_filter_title">
+                    <div class="search_filter_top">
+                        <strong>在<span>百洋</span>中筛选 </strong>
+                    </div>
+                </div>
+            </div>
+            <div class="goods_list">
+                <div class="goods_list_top">
+                    <div class="slh_label">排序:</div>
+                    <ul>
+                        <li><a href="javascript:;" class="down active" id="default">默认</a></li>
+                        <li><a href="javascript:;" class="price price_up" id="price">价格</a></li>
+                        <li><a href="javascript:;" class="down" id="sales">销量</a></li>
+                        <li><a href="javascript:;" class="down">人气</a></li>
+                        <li><a href="javascript:;" class="down time">上架时间</a></li>
+                        <li class="check">只看特卖</li>
+                    </ul>
+                </div>
+
+                <div class="goods_list_main clear">
+                    <ul id="reslist" class="clear">
+                        <li class="goods" cid="1">
+                            <div class="item_wrap clearfix  " style="left: -16px;">
+                                <div class="item_wrap_right">
+                                    <div class="s_l_pic">
+                                        <div class="icon_wrap clearfix">
+                                            <strong style="color: #ec2b8c">【海外自营】</strong>
+                                        </div>
+                                        <a href="###">
+                                            <img src="https://shopncstaticimage.baiyangwang.com/shop/store/goods/2/2_05935404847403270.jpg!gthumb"
+                                                style="display: inline;">
+                                        </a>
+                                    </div>
+
+                                    <div class="s_l_name">
+                                        <a href="###">【辅助调节血脂血压】美国纽特舒玛Nutrasumma阿拉斯加深海鱼油60粒 高血压高血脂三高人群</a>
+                                    </div>
+                                    <div class="s_l_view_bg">
+                                        <div class="icon_wrap_bot clear">
+                                        </div>
+                                        <div class="search_list_price">
+                                            <label>¥</label>
+                                            <span>180.0</span>
+                                            <del>¥228.0</del> </div>
+                                    </div>
+                                    <div class="search_deal_buttom_bg clear">
+                                        <div class="search_pl">月销1212笔</div>
+                                    </div>
+                                    <div class="search_list_button">
+                                        <a class="track_click" title="去看看" href="###"></a>
+                                    </div>
+                                    <p class="search_list_tags">
+                                        <span>均匀肤色</span>
+                                        <span>持久</span>
+                                        <span>美白</span>
+                                        <span>定妆</span>
+                                        <span>隔离</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="goods" cid="2">
+                            <div class="item_wrap clearfix  " style="left: -16px;">
+                                <div class="item_wrap_right">
+                                    <div class="s_l_pic">
+                                        <div class="icon_wrap clearfix">
+                                            <strong style="color: #ec2b8c">【海外自营】</strong>
+                                        </div>
+                                        <a href="###">
+                                            <img src="https://shopncstaticimage.baiyangwang.com/shop/store/goods/6/6_05790889792356823.jpg!gthumb"
+                                                style="display: inline;">
+                                        </a>
+                                    </div>
+
+                                    <div class="s_l_name">
+                                        <a href="###">【保护血管 控血糖】NOW 诺奥 大蒜素软胶囊 100粒/瓶大蒜精油提取物美国</a>
+                                    </div>
+                                    <div class="s_l_view_bg">
+                                        <div class="icon_wrap_bot clear">
+                                        </div>
+                                        <div class="search_list_price">
+                                            <label>¥</label>
+                                            <span>225.0</span>
+                                            <del>¥291.0</del> </div>
+                                    </div>
+                                    <div class="search_deal_buttom_bg clear">
+                                        <div class="search_pl">月销1241笔</div>
+                                    </div>
+                                    <div class="search_list_button">
+                                        <a class="track_click" title="去看看" href="###"></a>
+                                    </div>
+                                    <p class="search_list_tags">
+                                        <span>均匀肤色</span>
+                                        <span>持久</span>
+                                        <span>美白</span>
+                                        <span>定妆</span>
+                                        <span>隔离</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="goods" cid="3">
+                            <div class="item_wrap clearfix  " style="left: -16px;">
+                                <div class="item_wrap_right">
+                                    <div class="s_l_pic">
+                                        <div class="icon_wrap clearfix">
+                                            <strong style="color: #ec2b8c">【海外自营】</strong>
+                                        </div>
+                                        <a href="###">
+                                            <img src="https://shopncstaticimage.baiyangwang.com/shop/store/goods/2/2_05935223861247905.jpg!gthumb"
+                                                style="display: inline;">
+                                        </a>
+                                    </div>
+
+                                    <div class="s_l_name">
+                                        <a href="###">【焕发男性活力】NOW 诺奥 刺蒺藜皂甙胶囊 500mg 100粒</a>
+                                    </div>
+                                    <div class="s_l_view_bg">
+                                        <div class="icon_wrap_bot clear">
+                                        </div>
+                                        <div class="search_list_price">
+                                            <label>¥</label>
+                                            <span>270.0</span>
+                                            <del>¥354.0</del> </div>
+                                    </div>
+                                    <div class="search_deal_buttom_bg clear">
+                                        <div class="search_pl">月销1235笔</div>
+                                    </div>
+                                    <div class="search_list_button">
+                                        <a class="track_click" title="去看看" href="###"></a>
+                                    </div>
+                                    <p class="search_list_tags">
+                                        <span>均匀肤色</span>
+                                        <span>持久</span>
+                                        <span>美白</span>
+                                        <span>定妆</span>
+                                        <span>隔离</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="goods" cid="4">
+                            <div class="item_wrap clearfix  " style="left: -16px;">
+                                <div class="item_wrap_right">
+                                    <div class="s_l_pic">
+                                        <div class="icon_wrap clearfix">
+                                            <strong style="color: #ec2b8c">【海外自营】</strong>
+                                        </div>
+                                        <a href="###">
+                                            <img src="https://shopncstaticimage.baiyangwang.com/shop/store/goods/2/2_05935224489305351.jpg!gthumb"
+                                                style="display: inline;">
+                                        </a>
+                                    </div>
+
+                                    <div class="s_l_name">
+                                        <a href="###">NOW 诺奥 刺蒺藜皂甙精片 1000mg 90粒/瓶促睾雄性激素男性荷尔蒙</a>
+                                    </div>
+                                    <div class="s_l_view_bg">
+                                        <div class="icon_wrap_bot clear">
+                                        </div>
+                                        <div class="search_list_price">
+                                            <label>¥</label>
+                                            <span>315.0</span>
+                                            <del>¥417.0</del> </div>
+                                    </div>
+                                    <div class="search_deal_buttom_bg clear">
+                                        <div class="search_pl">月销966笔</div>
+                                    </div>
+                                    <div class="search_list_button">
+                                        <a class="track_click" title="去看看" href="###"></a>
+                                    </div>
+                                    <p class="search_list_tags">
+                                        <span>均匀肤色</span>
+                                        <span>持久</span>
+                                        <span>美白</span>
+                                        <span>定妆</span>
+                                        <span>隔离</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="goods" cid="5">
+                            <div class="item_wrap clearfix  " style="left: -16px;">
+                                <div class="item_wrap_right">
+                                    <div class="s_l_pic">
+                                        <div class="icon_wrap clearfix">
+                                            <strong style="color: #ec2b8c">【海外自营】</strong>
+                                        </div>
+                                        <a href="###">
+                                            <img src="https://shopncstaticimage.baiyangwang.com/shop/store/goods/1/1_05936287096590763.jpg!gthumb"
+                                                style="display: inline;">
+                                        </a>
+                                    </div>
+
+                                    <div class="s_l_name">
+                                        <a href="###">【德国原装进口】El-cemed爱斯麦德青少年清凉牙膏 75ml</a>
+                                    </div>
+                                    <div class="s_l_view_bg">
+                                        <div class="icon_wrap_bot clear">
+                                        </div>
+                                        <div class="search_list_price">
+                                            <label>¥</label>
+                                            <span>360.0</span>
+                                            <del>¥480.0</del> </div>
+                                    </div>
+                                    <div class="search_deal_buttom_bg clear">
+                                        <div class="search_pl">月销555笔</div>
+                                    </div>
+                                    <div class="search_list_button">
+                                        <a class="track_click" title="去看看" href="###"></a>
+                                    </div>
+                                    <p class="search_list_tags">
+                                        <span>均匀肤色</span>
+                                        <span>持久</span>
+                                        <span>美白</span>
+                                        <span>定妆</span>
+                                        <span>隔离</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="goods" cid="6">
+                            <div class="item_wrap clearfix  " style="left: -16px;">
+                                <div class="item_wrap_right">
+                                    <div class="s_l_pic">
+                                        <div class="icon_wrap clearfix">
+                                            <strong style="color: #ec2b8c">【海外自营】</strong>
+                                        </div>
+                                        <a href="###">
+                                            <img src="https://static.baiyangwang.com/Uploads/Goods_pic/2018-01-26/350x350/5a6ade5974026_350x350.jpg"
+                                                style="display: inline;">
+                                        </a>
+                                    </div>
+
+                                    <div class="s_l_name">
+                                        <a href="###">【透亮柔润】KOSE 高丝 ClearTurn 药用美白面膜 50片</a>
+                                    </div>
+                                    <div class="s_l_view_bg">
+                                        <div class="icon_wrap_bot clear">
+                                        </div>
+                                        <div class="search_list_price">
+                                            <label>¥</label>
+                                            <span>540.0</span>
+                                            <del>¥732.0</del> </div>
+                                    </div>
+                                    <div class="search_deal_buttom_bg clear">
+                                        <div class="search_pl">月销786笔</div>
+                                    </div>
+                                    <div class="search_list_button">
+                                        <a class="track_click" title="去看看" href="###"></a>
+                                    </div>
+                                    <p class="search_list_tags">
+                                        <span>均匀肤色</span>
+                                        <span>持久</span>
+                                        <span>美白</span>
+                                        <span>定妆</span>
+                                        <span>隔离</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="goods" cid="7">
+                            <div class="item_wrap clearfix  " style="left: -16px;">
+                                <div class="item_wrap_right">
+                                    <div class="s_l_pic">
+                                        <div class="icon_wrap clearfix">
+                                            <strong style="color: #ec2b8c">【海外自营】</strong>
+                                        </div>
+                                        <a href="###">
+                                            <img src="https://shopncstaticimage.baiyangwang.com/shop/store/goods/6/6_05835140034545440.jpg!gthumb"
+                                                style="display: inline;">
+                                        </a>
+                                    </div>
+
+                                    <div class="s_l_name">
+                                        <a href="###">【加拿大直邮】GOLD VITAMINS金维素II型胶原蛋白加玻尿酸 60粒</a>
+                                    </div>
+                                    <div class="s_l_view_bg">
+                                        <div class="icon_wrap_bot clear">
+                                        </div>
+                                        <div class="search_list_price">
+                                            <label>¥</label>
+                                            <span>585.0</span>
+                                            <del>¥795.0</del> </div>
+                                    </div>
+                                    <div class="search_deal_buttom_bg clear">
+                                        <div class="search_pl">月销456笔</div>
+                                    </div>
+                                    <div class="search_list_button">
+                                        <a class="track_click" title="去看看" href="###"></a>
+                                    </div>
+                                    <p class="search_list_tags">
+                                        <span>均匀肤色</span>
+                                        <span>持久</span>
+                                        <span>美白</span>
+                                        <span>定妆</span>
+                                        <span>隔离</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="goods" cid="8">
+                            <div class="item_wrap clearfix  " style="left: -16px;">
+                                <div class="item_wrap_right">
+                                    <div class="s_l_pic">
+                                        <div class="icon_wrap clearfix">
+                                            <strong style="color: #ec2b8c">【海外自营】</strong>
+                                        </div>
+                                        <a href="###">
+                                            <img src="https://shopncstaticimage.baiyangwang.com/shop/store/goods/2/2_05878184493594700.jpg!gthumb"
+                                                style="display: inline;">
+                                        </a>
+                                    </div>
+
+                                    <div class="s_l_name">
+                                        <a href="###">【恢复皮肤紧致弹润】美国Garden of Life生命花园Mykind植物胶原蛋白 60粒</a>
+                                    </div>
+                                    <div class="s_l_view_bg">
+                                        <div class="icon_wrap_bot clear">
+                                        </div>
+                                        <div class="search_list_price">
+                                            <label>¥</label>
+                                            <span>453.0</span>
+                                            <del>¥482.0</del> </div>
+                                    </div>
+                                    <div class="search_deal_buttom_bg clear">
+                                        <div class="search_pl">月销84笔</div>
+                                    </div>
+                                    <div class="search_list_button">
+                                        <a class="track_click" title="去看看" href="###"></a>
+                                    </div>
+                                    <p class="search_list_tags">
+                                        <span>均匀肤色</span>
+                                        <span>持久</span>
+                                        <span>美白</span>
+                                        <span>定妆</span>
+                                        <span>隔离</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="page_nav_wrapper">
+                        <ul class="page_nav">
+                            <li class="current"><a href="javascript:;">1</a></li>
+                            <li><a href="javascript:;">2</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div id="tfoot"></div>
+</body>
+<script>
+    $(() => {
+        $('#thead').load('thead.html', function () {
+
+        });
+        $('#tfoot').load('tfoot.html', function () {
+
+        });
+        $('#right').load('right.html', function () {
+
+        });
+    });
+</script>
+</html>

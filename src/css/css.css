@@ -1,0 +1,154 @@
+
+#box {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+
+/*li:200px*/
+
+
+/*图片的样式*/
+
+#box #imglist {
+	width: 800px;
+	height: 150px;
+}
+
+#box #imglist ul {
+	width: 2088px;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+#box #imglist li {
+	width: 232px;
+	height: 330px;
+	float: left;
+	
+}
+
+
+/*焦点的样式*/
+
+#light {
+	width: 800px;
+	height: 20px;
+	/*background: #ccc;*/
+	position: absolute;
+	left: 0;
+	bottom: 10px;
+	text-align: center;
+}
+
+#light span {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background: #D8D8D8;
+	text-align: center;
+	line-height: 20px;
+	margin: 0 5px;
+	cursor: pointer;
+}
+
+#light span.active {
+	background: orange;
+}
+
+
+/*左右按钮*/
+
+#posibtn {
+	width: 100%;
+	height: 50px;
+	/*background: #ccc;*/
+	position: absolute;
+	left: 0;
+	top: 50%;
+	margin-top: -25px;
+}
+
+#posibtn p {
+	width: 50px;
+	height: 50px;
+	background: rgba(253, 251, 251,0.7);
+	color: #fff;
+	font-size: 40px;
+	text-align: center;
+	line-height: 50px;
+	cursor: pointer;
+}
+
+#posibtn p:nth-child(1) {
+	float: left;
+	margin-left: 10px;
+}
+
+#posibtn p:nth-child(2) {
+	float: right;
+	margin-right: 10px;
+}
+.moveimg-li{
+	width: 220px;
+	height: 220px;
+	margin: 25px auto;
+	display: block;
+	background: red;
+}
+.moveimg-li img{
+	width: 100%;
+	height: 100%;
+}
+.moveimg-li2{
+	position: absolute;
+    top: 301px;
+	width: 232px;
+	height: 75px;
+}
+.moveimg-li2 p{
+	text-align: left;
+    /* height: 35px; */
+    /* overflow: hidden; */
+}
+.moveimg-li2 p a{
+	font-size: 13px;
+    /* text-align: left;
+    font-weight: 400; */
+}
+.moveimg-li2 p:nth-of-type(2){
+	margin-top: 5px;
+}
+.moveimg-li2 p em{
+	color: #EF3C79;
+    font-size: 12px;
+    margin-right: 3px;
+    font-weight: 600;
+}
+.moveimg-li2 p span{
+	font-size: 14px;
+    color: #ef3c79;
+    text-align: center;
+}
+.moveimg-li2 p i{
+	font-style: normal;
+    font-size: 12px;
+    color: #999;
+    text-decoration: line-through;
+    margin-left: 5px;
+}
+.tbody-box5{
+	width: 100%;
+	height: 80px;
+	margin-top: 100px;
+	background: orange;
+}
+.tbody-box5 img{
+	width: 100%;
+	height: 100%;
+}
